@@ -40,8 +40,8 @@ async function start() {
 
     
 }
-//setInterval(start,5000) //It will start executing in each 5000 millisecond interval
 
-cron.schedule("*/5*****",start) //
 
-// https://learnwebcode.github.io/practice-requests/
+cron.schedule("*/5*****",start) 
+
+
